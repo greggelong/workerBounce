@@ -6,6 +6,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
+  pixelDensity(1); 
   imageMode(CENTER)
   angleMode(DEGREES)
   print(img)
