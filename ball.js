@@ -7,7 +7,7 @@ class Ball {
     //this.vel = p5.Vector.random2D(); // this only picks direction some theta
     this.sz = random(0.5, 1);
     this.ang = random(360);
-    this.worker = random(img);
+    this.worker = random(img); //picks a random element from array
   }
 
   update() {
